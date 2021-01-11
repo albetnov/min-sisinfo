@@ -17,11 +17,15 @@ Welcome to SisInfoAlumni Repository, This project contains basic PHP Auth and CR
 
 ## Installation
 
-1. Clone this repository 2. Import sisinfo_db.sql 3. Run this project as usual.
+1. Clone this repository 
+2. Import sisinfo_db.sql 
+3. Run this project as usual.
 
 ## Usage
 
-1. Click Register to create account 2. After create then login to the account you created. 3. Enjoy!
+1. Click Register to create account 
+2. After create then login to the account you created. 
+3. Enjoy!
 
 ## License
 
