@@ -1,6 +1,7 @@
 <?php 
+//view of edit data
 session_start();
-include 'koneksi.php';
+include '../../koneksi.php';
 if($_SESSION['status'] != 'sudah_login'){
   die;
 }

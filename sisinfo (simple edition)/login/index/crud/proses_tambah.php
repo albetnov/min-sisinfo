@@ -1,5 +1,6 @@
 <?php
-include 'koneksi.php';
+//add items php process
+include '../../koneksi.php';
 
 $nama_kerja = $_POST['nama'];
 $jenis_kelamin = $_POST['gender'];

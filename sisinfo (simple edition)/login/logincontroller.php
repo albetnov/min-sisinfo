@@ -1,5 +1,5 @@
 <?php
-
+//this is a controller file which handling a Login. 
 session_start();
 include 'koneksi.php';
 

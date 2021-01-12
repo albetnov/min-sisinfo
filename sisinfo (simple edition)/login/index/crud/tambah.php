@@ -1,6 +1,7 @@
 <?php 
+//views of add items and its php configuration
 session_start();
-include 'koneksi.php';
+include '../../koneksi.php';
 if($_SESSION['status'] != 'sudah_login'){
   die;
 }

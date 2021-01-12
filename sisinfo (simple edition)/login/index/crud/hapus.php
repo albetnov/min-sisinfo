@@ -1,5 +1,6 @@
 <?php
-include 'koneksi.php';
+//delete data php queries
+include '../../koneksi.php';
 $id = $_GET["id"];
     $query = "DELETE FROM kerja WHERE id='$id'";
     $hasil_query = mysqli_query($koneksi, $query);

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--Examples of blank page to be linked-->
 <html>
   <head>
     <title>Contoh</title>

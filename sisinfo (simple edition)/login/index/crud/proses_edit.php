@@ -1,5 +1,6 @@
 <?php
-include 'koneksi.php';
+//an edit prosess of the files
+include '../../koneksi.php';
 
 $id = $_POST['id'];
 $nama_kerja = $_POST['nama'];

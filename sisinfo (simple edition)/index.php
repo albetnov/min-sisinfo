@@ -16,6 +16,9 @@
     <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!--Font awesome css-->
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.1-web/css/all.css">
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -40,6 +43,11 @@
     <video autoplay muted loop id="VideoBg">
       <source src="css/oregairu.mp4" type="video/mp4">
     </video>
+    <!--If Javascript disabled-->
+    <noscript>
+    <meta http-equiv="refresh" content="1;jsdisablewarning.php">
+    </noscript>
+    <!--You can modify Top Bar in here-->
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="masthead mb-auto">
     <div class="inner">
@@ -51,7 +59,7 @@
       </nav>
     </div>
   </header>
-
+      <!--This section is for modifying content-->
   <main role="main" class="inner cover">
     <h1 class="cover-heading">Welcome to Alumni Information System</h1>
       <p class="lead" style="background-color: blanchedalmond;width: fit-content;color:black;">Enjoy! Follow my github below!
@@ -61,19 +69,33 @@
       <a href="https://www.instagram.com/hiiryn/" class="btn btn-secondary">Follow Hirryn!</a>
     </p>
   </main>
-
+      <!--Place your website name below/copyright. Depends on you.-->
   <footer class="mastfoot mt-auto">
     <div class="inner">
+    <button class="btn btn-sm btn-secondary" id="nomute" onclick="unmute();" style="display:inline"><i class="fas fa-volume-up"></i></button>
+    <button class="btn btn-sm btn-secondary" id="mute" onclick="muteit();" style="display:none;"><i class="fas fa-volume-mute"></i></button>
       <p>Your copyright here.</p>
     </div>
   </footer>
 </div>
 </body>
+<!--This is the javascript-->
 <script type="text/javascript">
+var vidbg = document.getElementById("VideoBg");
  function redirect() {
    if (screen.width <= 950) {
       window.location = "nomobile.php";
    }
+  }
+  function unmute(){
+    document.getElementById("nomute").style.display = "none";
+    document.getElementById("mute").style.display = "inline";
+    vidbg.muted = false;
+  }
+  function muteit(){
+    document.getElementById("mute").style.display = "none";
+    document.getElementById("nomute").style.display = "inline";
+    vidbg.muted = true;
   }
 </script>
 </html>

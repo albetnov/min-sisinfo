@@ -34,6 +34,7 @@
     <link href="css/signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
+  <!--Here is content adjustment-->
     <form class="form-signin" method="POST" action="logincontroller.php">
   <h1 class="h3 mb-3 font-weight-normal">Sign in</h1>
   <label for="inputEmail" class="sr-only">Username</label>

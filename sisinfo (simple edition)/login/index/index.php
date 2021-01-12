@@ -1,7 +1,11 @@
 <?php
+//start session
 session_start();
-include 'koneksi.php';
+//incude the connection to database
+include '../koneksi.php';
+//check for user signed in already or not if not redirect user to login form.
 if($_SESSION['status'] != "sudah_login"){
+  header("location:../login.php");
   die;
 }
 ?>

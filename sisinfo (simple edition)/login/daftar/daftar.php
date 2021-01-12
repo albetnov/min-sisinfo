@@ -1,6 +1,6 @@
 <?php
-
-require_once('koneksi.php');
+//configuration file for registering an account
+require_once('../koneksi.php');
 
 if(isset($_POST['regis']))
 {
