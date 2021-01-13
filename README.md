@@ -33,7 +33,7 @@ This project is covered under the GNU GPLv3 license.
 
 ## Contributing
 
-Thanks for Hiiryn for contributing a video to this project. <https://www.instagram.com/hiiryn>
+Thanks for Hiiryn for contributing a video to this project. [Hirryn IG](https://www.instagram.com/hiiryn "Instagram Hirryn")
 You are free to contribute this project
 
 ## Tests
@@ -45,6 +45,6 @@ Password: user123
 
 ## Questions
 
-If you have questions regarding this project, my GitHub profile is <https://www.github.com/albetnov>.
+If you have questions regarding this project, my GitHub profile is [Github Profile](https://www.github.com/albetnov "My Github").
 
-Additionally, I can be reached by Instagram at <https://www.instagram.com/al_nv23>.
+Additionally, I can be reached by Instagram at [My Instagram](https://www.instagram.com/al_nv23 "My IG Profile).
