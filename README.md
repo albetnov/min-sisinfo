@@ -38,7 +38,10 @@ You are free to contribute this project
 
 ## Tests
 
-Currently, there is no test instructions for this Project.
+If you want to test this website in online demo,
+You can visit [SisInfoDemo](https://demosisinfo.000webhostapp.com/ "SisInfo Demo")
+Username: user
+Password: user123
 
 ## Questions
 
