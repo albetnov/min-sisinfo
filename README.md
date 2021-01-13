@@ -47,4 +47,4 @@ Password: user123
 
 If you have questions regarding this project, my GitHub profile is [Github Profile](https://www.github.com/albetnov "My Github").
 
-Additionally, I can be reached by Instagram at [My Instagram](https://www.instagram.com/al_nv23 "My IG Profile).
+Additionally, I can be reached by Instagram at [My Instagram](https://www.instagram.com/al_nv23 "My IG Profile").
