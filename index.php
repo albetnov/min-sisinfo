@@ -64,10 +64,10 @@
       <!--This section is for modifying content-->
   <main role="main" class="inner cover">
     <h1 class="cover-heading">Welcome to Alumni Information System</h1>
-      <p class="lead" style="background-color: blanchedalmond;width: fit-content;color:black;">Enjoy! Follow my github below!
+      <p class="lead">Enjoy! Follow my github below!
       <a href="https://github.com/albetnov" class="btn btn-secondary">Follow Me!</a> 
     </p>
-    <p class="lead" style="background-color: blanchedalmond;width: fit-content;color:black;">The Creator of Video which are we using in this Web
+    <p class="lead">The Creator of Video which are we using in this Web
       <a href="https://www.instagram.com/hiiryn/" class="btn btn-secondary">Follow Hirryn!</a>
     </p>
   </main>
