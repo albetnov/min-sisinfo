@@ -40,9 +40,11 @@
   </head>
   <body class="text-center" onload="setTimeout('redirect()', 300)">
     <!--This video is fanmade(created by my friend lol.) footage source from Anime(Oregairu). This anime is recommended(If you like conflict).-->
-    <video autoplay muted loop id="VideoBg">
+  <div class="video-container">
+    <video autoplay muted loop id="VolControl">
       <source src="css/oregairu.mp4" type="video/mp4">
     </video>
+    </div>
     <!--If Javascript disabled-->
     <noscript>
     <meta http-equiv="refresh" content="1;jsdisablewarning.php">
@@ -81,12 +83,7 @@
 </body>
 <!--This is the javascript-->
 <script type="text/javascript">
-var vidbg = document.getElementById("VideoBg");
- function redirect() {
-   if (screen.width <= 950) {
-      window.location = "nomobile.php";
-   }
-  }
+var vidbg = document.getElementById("VolControl");
   function unmute(){
     document.getElementById("nomute").style.display = "none";
     document.getElementById("mute").style.display = "inline";
