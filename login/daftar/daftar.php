@@ -13,9 +13,8 @@ if(isset($_POST['regis']))
         echo 'Isi dong';
     }
         $pass=$password;
-        $sql = "INSERT INTO users (nama,username,password) values ('$nama','$username','$pass')";
+        $sql = "INSERT INTO users (nama,username,password,level) values ('$nama','$username','$pass','user')";
         $result = mysqli_query($koneksi,$sql);
-
         if($result)
         {
             header("location:../login.php");
