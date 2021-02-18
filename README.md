@@ -52,8 +52,13 @@ You are free to contribute this project
 
 If you want to test this website in online demo,
 You can visit [SisInfoDemo](https://demosisinfo.000webhostapp.com/ "SisInfo Demo")
+
+For user:
 Username: user
 Password: user123
+For admin:
+username: admin
+password: admin
 
 ## Questions
 
